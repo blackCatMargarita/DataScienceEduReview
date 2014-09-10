@@ -1,8 +1,8 @@
 ---
 title       : Coursera's Data Science Specialization Review
 subtitle    : Data Analytics Workshop
-author      : Sonya Crofton, 9/11/14
-job         : 
+author      : Sonya Crofton 
+job         : 9/11/14
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
@@ -159,7 +159,7 @@ qplot(displ, hwy, data = mpg, color = drv, main = "mtcars data set")
     + Error Rates
 * Course material appears to change more than other courses
     + previously only quizes
-* "weed-out course"
+
 
 ---
 
@@ -203,7 +203,7 @@ qplot(displ, hwy, data = mpg, color = drv, main = "mtcars data set")
 
 ---
 
-## Main Advantages
+## Overall Advantages
 
 * Learn R and extendible features
 * Teaching how to teach yourself
@@ -258,12 +258,6 @@ qplot(displ, hwy, data = mpg, color = drv, main = "mtcars data set")
 
 ---
 
-## Additional Courses
-
-[Harvard Data Science Course](http://cs109.github.io/2014/)
-
----
-
 ## Adjacent Resources and Reading
 
 * R-bloggers: [http://www.r-bloggers.com/](http://www.r-bloggers.com/)  
@@ -273,10 +267,7 @@ qplot(displ, hwy, data = mpg, color = drv, main = "mtcars data set")
 * Visualizations: 
     + http://d3js.org/
     + leaflet
-    
----
-
-## Sources/Credits
+* [Harvard Data Science Course](http://cs109.github.io/2014/)
 
 ---
 
