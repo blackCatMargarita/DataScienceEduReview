@@ -72,7 +72,7 @@ May 2012: [https://www.edx.org/](https://www.edx.org/)
 * Intro to R and Rstudio
 * Not much more than a set-up guide
 
-<img src="assets/img/GitHubIntro2.png" height=300 />
+<img src="assets/img/GitHubIntro2.png" height=300 />  
 <img src="assets/img/rStudioIDE3.png" height=300 />
 
 ---
@@ -158,7 +158,7 @@ qplot(displ, hwy, data = mpg, color = drv, main = "mtcars data set")
     + Confidence Intervals
     + Error Rates
 * Course material appears to change more than other courses
-    + previously only quizes
+    + previously only quizzes
 
 
 ---
