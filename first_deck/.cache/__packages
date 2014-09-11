@@ -1,2 +1,12 @@
 base
+caret
+Defaults
+ElemStatLearn
 ggplot2
+lattice
+quantmod
+rCharts
+rMaps
+TTR
+xts
+zoo

@@ -1,0 +1,1300 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    
+    <script src='http://d3js.org/d3.v3.min.js' type='text/javascript'></script>
+    <script src='http://d3js.org/topojson.v1.min.js' type='text/javascript'></script>
+    <script src='http://datamaps.github.io/scripts/datamaps.all.min.js' type='text/javascript'></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chart16a01dcd1753' class = 'rChart datamaps'></div>    
+    <script id='popup-template' type='text/x-handlebars-template'>
+    
+</script>
+<script>
+  var chartParams = {
+ "dom": "chart16a01dcd1753",
+"width":    800,
+"height":    400,
+"scope": "world",
+"fills": {
+ "(0.001,0.206]": "#F7FBFF",
+"(0.206,1.25]": "#DEEBF7",
+"(1.25,3.39]": "#C6DBEF",
+"(3.39,5.54]": "#9ECAE1",
+"(5.54,9.52]": "#6BAED6",
+"(9.52,15.2]": "#4292C6",
+"(15.2,28.4]": "#2171B5",
+"(28.4,59.3]": "#08519C",
+"(59.3,1.39e+03]": "#08306B" 
+},
+"legend": true,
+"labels": false,
+"data": {
+ "": {
+ "IOS": [ "" ],
+"Population": [  1.807 ],
+"rankOrder": [ 150 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"ADO": {
+ "IOS": [ "ADO" ],
+"Population": [  0.079 ],
+"rankOrder": [ 189 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"AFG": {
+ "IOS": [ "AFG" ],
+"Population": [ 30.552 ],
+"rankOrder": [ 40 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"AGO": {
+ "IOS": [ "AGO" ],
+"Population": [ 21.472 ],
+"rankOrder": [ 56 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"ALB": {
+ "IOS": [ "ALB" ],
+"Population": [  3.173 ],
+"rankOrder": [ 136 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"ARE": {
+ "IOS": [ "ARE" ],
+"Population": [  9.346 ],
+"rankOrder": [ 93 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"ARG": {
+ "IOS": [ "ARG" ],
+"Population": [ 41.446 ],
+"rankOrder": [ 32 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"ARM": {
+ "IOS": [ "ARM" ],
+"Population": [  2.977 ],
+"rankOrder": [ 138 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"ATG": {
+ "IOS": [ "ATG" ],
+"Population": [   0.09 ],
+"rankOrder": [ 188 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"AUS": {
+ "IOS": [ "AUS" ],
+"Population": [ 23.343 ],
+"rankOrder": [ 51 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"AUT": {
+ "IOS": [ "AUT" ],
+"Population": [  8.495 ],
+"rankOrder": [ 94 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"AZE": {
+ "IOS": [ "AZE" ],
+"Population": [  9.413 ],
+"rankOrder": [ 91 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"BDI": {
+ "IOS": [ "BDI" ],
+"Population": [ 10.163 ],
+"rankOrder": [ 87 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"BEL": {
+ "IOS": [ "BEL" ],
+"Population": [ 11.104 ],
+"rankOrder": [ 78 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"BEN": {
+ "IOS": [ "BEN" ],
+"Population": [ 10.323 ],
+"rankOrder": [ 85 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"BFA": {
+ "IOS": [ "BFA" ],
+"Population": [ 16.935 ],
+"rankOrder": [ 61 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"BGD": {
+ "IOS": [ "BGD" ],
+"Population": [ 156.59 ],
+"rankOrder": [ 8 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"BGR": {
+ "IOS": [ "BGR" ],
+"Population": [  7.223 ],
+"rankOrder": [ 100 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"BHR": {
+ "IOS": [ "BHR" ],
+"Population": [  1.332 ],
+"rankOrder": [ 154 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"BHS": {
+ "IOS": [ "BHS" ],
+"Population": [  0.377 ],
+"rankOrder": [ 173 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"BIH": {
+ "IOS": [ "BIH" ],
+"Population": [  3.829 ],
+"rankOrder": [ 130 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"BLR": {
+ "IOS": [ "BLR" ],
+"Population": [  9.357 ],
+"rankOrder": [ 92 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"BLZ": {
+ "IOS": [ "BLZ" ],
+"Population": [  0.332 ],
+"rankOrder": [ 175 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"BOL": {
+ "IOS": [ "BOL" ],
+"Population": [ 10.671 ],
+"rankOrder": [ 81 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"BRA": {
+ "IOS": [ "BRA" ],
+"Population": [ 200.36 ],
+"rankOrder": [ 5 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"BRB": {
+ "IOS": [ "BRB" ],
+"Population": [  0.285 ],
+"rankOrder": [ 177 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"BRN": {
+ "IOS": [ "BRN" ],
+"Population": [  0.418 ],
+"rankOrder": [ 172 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"BTN": {
+ "IOS": [ "BTN" ],
+"Population": [  0.754 ],
+"rankOrder": [ 164 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"BWA": {
+ "IOS": [ "BWA" ],
+"Population": [  2.021 ],
+"rankOrder": [ 148 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"CAF": {
+ "IOS": [ "CAF" ],
+"Population": [  4.616 ],
+"rankOrder": [ 121 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"CAN": {
+ "IOS": [ "CAN" ],
+"Population": [ 35.182 ],
+"rankOrder": [ 37 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"CHE": {
+ "IOS": [ "CHE" ],
+"Population": [  8.078 ],
+"rankOrder": [ 97 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"CHL": {
+ "IOS": [ "CHL" ],
+"Population": [  17.62 ],
+"rankOrder": [ 60 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"CHN": {
+ "IOS": [ "CHN" ],
+"Population": [ 1385.6 ],
+"rankOrder": [ 1 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"CIV": {
+ "IOS": [ "CIV" ],
+"Population": [ 20.316 ],
+"rankOrder": [ 58 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"CMR": {
+ "IOS": [ "CMR" ],
+"Population": [ 22.254 ],
+"rankOrder": [ 53 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"COD": {
+ "IOS": [ "COD" ],
+"Population": [ 67.514 ],
+"rankOrder": [ 19 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"COG": {
+ "IOS": [ "COG" ],
+"Population": [  4.448 ],
+"rankOrder": [ 123 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"COK": {
+ "IOS": [ "COK" ],
+"Population": [  0.021 ],
+"rankOrder": [ 196 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"COL": {
+ "IOS": [ "COL" ],
+"Population": [ 48.321 ],
+"rankOrder": [ 28 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"COM": {
+ "IOS": [ "COM" ],
+"Population": [  0.735 ],
+"rankOrder": [ 165 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"CPV": {
+ "IOS": [ "CPV" ],
+"Population": [  0.499 ],
+"rankOrder": [ 170 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"CRI": {
+ "IOS": [ "CRI" ],
+"Population": [  4.872 ],
+"rankOrder": [ 118 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"CUB": {
+ "IOS": [ "CUB" ],
+"Population": [ 11.266 ],
+"rankOrder": [ 76 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"CYP": {
+ "IOS": [ "CYP" ],
+"Population": [  1.141 ],
+"rankOrder": [ 158 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"CZE": {
+ "IOS": [ "CZE" ],
+"Population": [ 10.702 ],
+"rankOrder": [ 80 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"DEU": {
+ "IOS": [ "DEU" ],
+"Population": [ 82.727 ],
+"rankOrder": [ 15 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"DJI": {
+ "IOS": [ "DJI" ],
+"Population": [  0.873 ],
+"rankOrder": [ 161 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"DMA": {
+ "IOS": [ "DMA" ],
+"Population": [  0.072 ],
+"rankOrder": [ 190 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"DNK": {
+ "IOS": [ "DNK" ],
+"Population": [  5.619 ],
+"rankOrder": [ 111 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"DOM": {
+ "IOS": [ "DOM" ],
+"Population": [ 10.404 ],
+"rankOrder": [ 84 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"DZA": {
+ "IOS": [ "DZA" ],
+"Population": [ 39.208 ],
+"rankOrder": [ 33 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"ECU": {
+ "IOS": [ "ECU" ],
+"Population": [ 15.738 ],
+"rankOrder": [ 65 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"EGY": {
+ "IOS": [ "EGY" ],
+"Population": [ 82.056 ],
+"rankOrder": [ 16 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"ERI": {
+ "IOS": [ "ERI" ],
+"Population": [  6.333 ],
+"rankOrder": [ 106 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"ESP": {
+ "IOS": [ "ESP" ],
+"Population": [ 46.927 ],
+"rankOrder": [ 29 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"EST": {
+ "IOS": [ "EST" ],
+"Population": [  1.287 ],
+"rankOrder": [ 155 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"ETH": {
+ "IOS": [ "ETH" ],
+"Population": [ 94.101 ],
+"rankOrder": [ 13 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"FIN": {
+ "IOS": [ "FIN" ],
+"Population": [  5.426 ],
+"rankOrder": [ 114 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"FJI": {
+ "IOS": [ "FJI" ],
+"Population": [  0.881 ],
+"rankOrder": [ 160 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"FRA": {
+ "IOS": [ "FRA" ],
+"Population": [ 64.291 ],
+"rankOrder": [ 21 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"FSM": {
+ "IOS": [ "FSM" ],
+"Population": [  0.104 ],
+"rankOrder": [ 185 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"GAB": {
+ "IOS": [ "GAB" ],
+"Population": [  1.672 ],
+"rankOrder": [ 152 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"GBR": {
+ "IOS": [ "GBR" ],
+"Population": [ 63.136 ],
+"rankOrder": [ 22 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"GEO": {
+ "IOS": [ "GEO" ],
+"Population": [  4.341 ],
+"rankOrder": [ 124 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"GHA": {
+ "IOS": [ "GHA" ],
+"Population": [ 25.905 ],
+"rankOrder": [ 47 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"GIN": {
+ "IOS": [ "GIN" ],
+"Population": [ 11.745 ],
+"rankOrder": [ 74 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"GMB": {
+ "IOS": [ "GMB" ],
+"Population": [  1.849 ],
+"rankOrder": [ 149 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"GNB": {
+ "IOS": [ "GNB" ],
+"Population": [  1.704 ],
+"rankOrder": [ 151 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"GNQ": {
+ "IOS": [ "GNQ" ],
+"Population": [  0.757 ],
+"rankOrder": [ 163 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"GRC": {
+ "IOS": [ "GRC" ],
+"Population": [ 11.128 ],
+"rankOrder": [ 77 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"GRD": {
+ "IOS": [ "GRD" ],
+"Population": [  0.106 ],
+"rankOrder": [ 183 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"GTM": {
+ "IOS": [ "GTM" ],
+"Population": [ 15.468 ],
+"rankOrder": [ 66 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"GUY": {
+ "IOS": [ "GUY" ],
+"Population": [    0.8 ],
+"rankOrder": [ 162 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"HKG": {
+ "IOS": [ "HKG" ],
+"Population": [ 7.1546 ],
+"rankOrder": [ 101 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"HND": {
+ "IOS": [ "HND" ],
+"Population": [  8.098 ],
+"rankOrder": [ 96 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"HRV": {
+ "IOS": [ "HRV" ],
+"Population": [   4.29 ],
+"rankOrder": [ 127 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"HTI": {
+ "IOS": [ "HTI" ],
+"Population": [ 10.317 ],
+"rankOrder": [ 86 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"HUN": {
+ "IOS": [ "HUN" ],
+"Population": [  9.955 ],
+"rankOrder": [ 88 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"IDN": {
+ "IOS": [ "IDN" ],
+"Population": [ 249.87 ],
+"rankOrder": [ 4 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"IND": {
+ "IOS": [ "IND" ],
+"Population": [ 1252.1 ],
+"rankOrder": [ 2 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"IRL": {
+ "IOS": [ "IRL" ],
+"Population": [  4.627 ],
+"rankOrder": [ 120 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"IRN": {
+ "IOS": [ "IRN" ],
+"Population": [ 77.447 ],
+"rankOrder": [ 17 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"IRQ": {
+ "IOS": [ "IRQ" ],
+"Population": [ 33.765 ],
+"rankOrder": [ 38 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"ISL": {
+ "IOS": [ "ISL" ],
+"Population": [   0.33 ],
+"rankOrder": [ 176 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"ISR": {
+ "IOS": [ "ISR" ],
+"Population": [  7.733 ],
+"rankOrder": [ 98 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"ITA": {
+ "IOS": [ "ITA" ],
+"Population": [  60.99 ],
+"rankOrder": [ 23 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"JAM": {
+ "IOS": [ "JAM" ],
+"Population": [  2.784 ],
+"rankOrder": [ 140 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"JOR": {
+ "IOS": [ "JOR" ],
+"Population": [  6.318 ],
+"rankOrder": [ 107 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"JPN": {
+ "IOS": [ "JPN" ],
+"Population": [ 127.14 ],
+"rankOrder": [ 10 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"KAZ": {
+ "IOS": [ "KAZ" ],
+"Population": [ 16.441 ],
+"rankOrder": [ 63 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"KEN": {
+ "IOS": [ "KEN" ],
+"Population": [ 44.354 ],
+"rankOrder": [ 31 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"KGZ": {
+ "IOS": [ "KGZ" ],
+"Population": [  5.548 ],
+"rankOrder": [ 112 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"KHM": {
+ "IOS": [ "KHM" ],
+"Population": [ 15.135 ],
+"rankOrder": [ 68 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"KIR": {
+ "IOS": [ "KIR" ],
+"Population": [  0.102 ],
+"rankOrder": [ 186 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"KNA": {
+ "IOS": [ "KNA" ],
+"Population": [  0.054 ],
+"rankOrder": [ 191 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"KOR": {
+ "IOS": [ "KOR" ],
+"Population": [ 49.263 ],
+"rankOrder": [ 26 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"KWT": {
+ "IOS": [ "KWT" ],
+"Population": [  3.369 ],
+"rankOrder": [ 135 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"LAO": {
+ "IOS": [ "LAO" ],
+"Population": [   6.77 ],
+"rankOrder": [ 104 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"LBN": {
+ "IOS": [ "LBN" ],
+"Population": [  4.822 ],
+"rankOrder": [ 119 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"LBR": {
+ "IOS": [ "LBR" ],
+"Population": [  4.294 ],
+"rankOrder": [ 126 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"LBY": {
+ "IOS": [ "LBY" ],
+"Population": [  6.202 ],
+"rankOrder": [ 108 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"LCA": {
+ "IOS": [ "LCA" ],
+"Population": [  0.182 ],
+"rankOrder": [ 181 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"LIE": {
+ "IOS": [ "LIE" ],
+"Population": [  0.037 ],
+"rankOrder": [ 194 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"LKA": {
+ "IOS": [ "LKA" ],
+"Population": [ 21.273 ],
+"rankOrder": [ 57 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"LSO": {
+ "IOS": [ "LSO" ],
+"Population": [  2.074 ],
+"rankOrder": [ 145 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"LTU": {
+ "IOS": [ "LTU" ],
+"Population": [  3.017 ],
+"rankOrder": [ 137 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"LUX": {
+ "IOS": [ "LUX" ],
+"Population": [   0.53 ],
+"rankOrder": [ 169 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"LVA": {
+ "IOS": [ "LVA" ],
+"Population": [   2.05 ],
+"rankOrder": [ 147 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"MAR": {
+ "IOS": [ "MAR" ],
+"Population": [ 33.008 ],
+"rankOrder": [ 39 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"MCO": {
+ "IOS": [ "MCO" ],
+"Population": [  0.038 ],
+"rankOrder": [ 193 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"MDA": {
+ "IOS": [ "MDA" ],
+"Population": [  3.487 ],
+"rankOrder": [ 133 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"MDG": {
+ "IOS": [ "MDG" ],
+"Population": [ 22.925 ],
+"rankOrder": [ 52 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"MDV": {
+ "IOS": [ "MDV" ],
+"Population": [  0.345 ],
+"rankOrder": [ 174 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"MEX": {
+ "IOS": [ "MEX" ],
+"Population": [ 122.33 ],
+"rankOrder": [ 11 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"MHL": {
+ "IOS": [ "MHL" ],
+"Population": [  0.053 ],
+"rankOrder": [ 192 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"MKD": {
+ "IOS": [ "MKD" ],
+"Population": [  2.107 ],
+"rankOrder": [ 144 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"MLI": {
+ "IOS": [ "MLI" ],
+"Population": [ 15.302 ],
+"rankOrder": [ 67 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"MLT": {
+ "IOS": [ "MLT" ],
+"Population": [  0.429 ],
+"rankOrder": [ 171 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"MMR": {
+ "IOS": [ "MMR" ],
+"Population": [ 53.259 ],
+"rankOrder": [ 24 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"MNE": {
+ "IOS": [ "MNE" ],
+"Population": [  0.621 ],
+"rankOrder": [ 166 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"MNG": {
+ "IOS": [ "MNG" ],
+"Population": [  2.839 ],
+"rankOrder": [ 139 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"MOZ": {
+ "IOS": [ "MOZ" ],
+"Population": [ 25.834 ],
+"rankOrder": [ 48 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"MRT": {
+ "IOS": [ "MRT" ],
+"Population": [   3.89 ],
+"rankOrder": [ 128 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"MUS": {
+ "IOS": [ "MUS" ],
+"Population": [  1.244 ],
+"rankOrder": [ 157 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"MWI": {
+ "IOS": [ "MWI" ],
+"Population": [ 16.363 ],
+"rankOrder": [ 64 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"MYS": {
+ "IOS": [ "MYS" ],
+"Population": [ 29.717 ],
+"rankOrder": [ 43 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"NAM": {
+ "IOS": [ "NAM" ],
+"Population": [  2.303 ],
+"rankOrder": [ 142 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"NER": {
+ "IOS": [ "NER" ],
+"Population": [ 17.831 ],
+"rankOrder": [ 59 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"NGA": {
+ "IOS": [ "NGA" ],
+"Population": [ 173.62 ],
+"rankOrder": [ 7 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"NIC": {
+ "IOS": [ "NIC" ],
+"Population": [   6.08 ],
+"rankOrder": [ 110 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"NIU": {
+ "IOS": [ "NIU" ],
+"Population": [  0.001 ],
+"rankOrder": [ 201 ],
+"fillKey": [ null ] 
+},
+"NLD": {
+ "IOS": [ "NLD" ],
+"Population": [ 16.759 ],
+"rankOrder": [ 62 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"NOR": {
+ "IOS": [ "NOR" ],
+"Population": [  5.043 ],
+"rankOrder": [ 117 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"NPL": {
+ "IOS": [ "NPL" ],
+"Population": [ 27.797 ],
+"rankOrder": [ 46 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"NRU": {
+ "IOS": [ "NRU" ],
+"Population": [   0.01 ],
+"rankOrder": [ 198 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"NZL": {
+ "IOS": [ "NZL" ],
+"Population": [  4.506 ],
+"rankOrder": [ 122 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"OMN": {
+ "IOS": [ "OMN" ],
+"Population": [  3.632 ],
+"rankOrder": [ 132 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"PAK": {
+ "IOS": [ "PAK" ],
+"Population": [ 182.14 ],
+"rankOrder": [ 6 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"PAN": {
+ "IOS": [ "PAN" ],
+"Population": [  3.864 ],
+"rankOrder": [ 129 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"PER": {
+ "IOS": [ "PER" ],
+"Population": [ 30.376 ],
+"rankOrder": [ 42 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"PHL": {
+ "IOS": [ "PHL" ],
+"Population": [ 98.394 ],
+"rankOrder": [ 12 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"PLW": {
+ "IOS": [ "PLW" ],
+"Population": [  0.021 ],
+"rankOrder": [ 197 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"PNG": {
+ "IOS": [ "PNG" ],
+"Population": [  7.321 ],
+"rankOrder": [ 99 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"POL": {
+ "IOS": [ "POL" ],
+"Population": [ 38.217 ],
+"rankOrder": [ 34 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"PRI": {
+ "IOS": [ "PRI" ],
+"Population": [  3.667 ],
+"rankOrder": [ 131 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"PRK": {
+ "IOS": [ "PRK" ],
+"Population": [ 24.895 ],
+"rankOrder": [ 49 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"PRT": {
+ "IOS": [ "PRT" ],
+"Population": [ 10.608 ],
+"rankOrder": [ 82 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"PRY": {
+ "IOS": [ "PRY" ],
+"Population": [  6.802 ],
+"rankOrder": [ 103 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"PSE": {
+ "IOS": [ "PSE" ],
+"Population": [  4.326 ],
+"rankOrder": [ 125 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"QAT": {
+ "IOS": [ "QAT" ],
+"Population": [  2.169 ],
+"rankOrder": [ 143 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"ROM": {
+ "IOS": [ "ROM" ],
+"Population": [ 21.699 ],
+"rankOrder": [ 55 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"RUS": {
+ "IOS": [ "RUS" ],
+"Population": [ 142.83 ],
+"rankOrder": [ 9 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"RWA": {
+ "IOS": [ "RWA" ],
+"Population": [ 11.777 ],
+"rankOrder": [ 73 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"SAU": {
+ "IOS": [ "SAU" ],
+"Population": [ 28.829 ],
+"rankOrder": [ 45 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"SDN": {
+ "IOS": [ "SDN" ],
+"Population": [ 37.964 ],
+"rankOrder": [ 35 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"SEN": {
+ "IOS": [ "SEN" ],
+"Population": [ 14.133 ],
+"rankOrder": [ 71 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"SGP": {
+ "IOS": [ "SGP" ],
+"Population": [  5.412 ],
+"rankOrder": [ 115 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"SLB": {
+ "IOS": [ "SLB" ],
+"Population": [  0.561 ],
+"rankOrder": [ 167 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"SLE": {
+ "IOS": [ "SLE" ],
+"Population": [  6.092 ],
+"rankOrder": [ 109 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"SLV": {
+ "IOS": [ "SLV" ],
+"Population": [   6.34 ],
+"rankOrder": [ 105 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"SMR": {
+ "IOS": [ "SMR" ],
+"Population": [  0.031 ],
+"rankOrder": [ 195 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"SOM": {
+ "IOS": [ "SOM" ],
+"Population": [ 10.496 ],
+"rankOrder": [ 83 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"SRB": {
+ "IOS": [ "SRB" ],
+"Population": [  9.511 ],
+"rankOrder": [ 90 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"SSD": {
+ "IOS": [ "SSD" ],
+"Population": [ 11.296 ],
+"rankOrder": [ 75 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"STP": {
+ "IOS": [ "STP" ],
+"Population": [  0.193 ],
+"rankOrder": [ 179 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"SUR": {
+ "IOS": [ "SUR" ],
+"Population": [  0.539 ],
+"rankOrder": [ 168 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"SVK": {
+ "IOS": [ "SVK" ],
+"Population": [   5.45 ],
+"rankOrder": [ 113 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"SVN": {
+ "IOS": [ "SVN" ],
+"Population": [  2.072 ],
+"rankOrder": [ 146 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"SWE": {
+ "IOS": [ "SWE" ],
+"Population": [  9.571 ],
+"rankOrder": [ 89 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"SWZ": {
+ "IOS": [ "SWZ" ],
+"Population": [   1.25 ],
+"rankOrder": [ 156 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"SYC": {
+ "IOS": [ "SYC" ],
+"Population": [  0.093 ],
+"rankOrder": [ 187 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"SYR": {
+ "IOS": [ "SYR" ],
+"Population": [ 21.898 ],
+"rankOrder": [ 54 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"TCD": {
+ "IOS": [ "TCD" ],
+"Population": [ 12.825 ],
+"rankOrder": [ 72 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"TGO": {
+ "IOS": [ "TGO" ],
+"Population": [  6.817 ],
+"rankOrder": [ 102 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"THA": {
+ "IOS": [ "THA" ],
+"Population": [ 67.011 ],
+"rankOrder": [ 20 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"TJK": {
+ "IOS": [ "TJK" ],
+"Population": [  8.208 ],
+"rankOrder": [ 95 ],
+"fillKey": [ "(5.54,9.52]" ] 
+},
+"TKM": {
+ "IOS": [ "TKM" ],
+"Population": [   5.24 ],
+"rankOrder": [ 116 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"TMP": {
+ "IOS": [ "TMP" ],
+"Population": [  1.133 ],
+"rankOrder": [ 159 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"TON": {
+ "IOS": [ "TON" ],
+"Population": [  0.105 ],
+"rankOrder": [ 184 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"TTO": {
+ "IOS": [ "TTO" ],
+"Population": [  1.341 ],
+"rankOrder": [ 153 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"TUN": {
+ "IOS": [ "TUN" ],
+"Population": [ 10.997 ],
+"rankOrder": [ 79 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"TUR": {
+ "IOS": [ "TUR" ],
+"Population": [ 74.933 ],
+"rankOrder": [ 18 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"TUV": {
+ "IOS": [ "TUV" ],
+"Population": [   0.01 ],
+"rankOrder": [ 199 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"TWN": {
+ "IOS": [ "TWN" ],
+"Population": [  2.336 ],
+"rankOrder": [ 141 ],
+"fillKey": [ "(1.25,3.39]" ] 
+},
+"TZA": {
+ "IOS": [ "TZA" ],
+"Population": [ 49.253 ],
+"rankOrder": [ 27 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"UGA": {
+ "IOS": [ "UGA" ],
+"Population": [ 37.579 ],
+"rankOrder": [ 36 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"UKR": {
+ "IOS": [ "UKR" ],
+"Population": [ 45.239 ],
+"rankOrder": [ 30 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"URY": {
+ "IOS": [ "URY" ],
+"Population": [  3.407 ],
+"rankOrder": [ 134 ],
+"fillKey": [ "(3.39,5.54]" ] 
+},
+"USA": {
+ "IOS": [ "USA" ],
+"Population": [ 320.05 ],
+"rankOrder": [ 3 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"UZB": {
+ "IOS": [ "UZB" ],
+"Population": [ 28.934 ],
+"rankOrder": [ 44 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"VAT": {
+ "IOS": [ "VAT" ],
+"Population": [  0.001 ],
+"rankOrder": [ 200 ],
+"fillKey": [ null ] 
+},
+"VCT": {
+ "IOS": [ "VCT" ],
+"Population": [  0.109 ],
+"rankOrder": [ 182 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"VEN": {
+ "IOS": [ "VEN" ],
+"Population": [ 30.405 ],
+"rankOrder": [ 41 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"VNM": {
+ "IOS": [ "VNM" ],
+"Population": [  91.68 ],
+"rankOrder": [ 14 ],
+"fillKey": [ "(59.3,1.39e+03]" ] 
+},
+"VUT": {
+ "IOS": [ "VUT" ],
+"Population": [  0.253 ],
+"rankOrder": [ 178 ],
+"fillKey": [ "(0.206,1.25]" ] 
+},
+"WSM": {
+ "IOS": [ "WSM" ],
+"Population": [   0.19 ],
+"rankOrder": [ 180 ],
+"fillKey": [ "(0.001,0.206]" ] 
+},
+"YEM": {
+ "IOS": [ "YEM" ],
+"Population": [ 24.407 ],
+"rankOrder": [ 50 ],
+"fillKey": [ "(15.2,28.4]" ] 
+},
+"ZAF": {
+ "IOS": [ "ZAF" ],
+"Population": [ 52.776 ],
+"rankOrder": [ 25 ],
+"fillKey": [ "(28.4,59.3]" ] 
+},
+"ZMB": {
+ "IOS": [ "ZMB" ],
+"Population": [ 14.539 ],
+"rankOrder": [ 69 ],
+"fillKey": [ "(9.52,15.2]" ] 
+},
+"ZWE": {
+ "IOS": [ "ZWE" ],
+"Population": [  14.15 ],
+"rankOrder": [ 70 ],
+"fillKey": [ "(9.52,15.2]" ] 
+} 
+},
+"id": "chart16a01dcd1753" 
+}
+  chartParams.element = document.getElementById('chart16a01dcd1753')
+  
+  
+  var mapchart16a01dcd1753 = new Datamap(chartParams);
+  
+  
+    
+  // draw a bubble map if specified
+  if (chartParams.bubbles) {
+    var bubbles = chartParams.bubbles
+    mapchart16a01dcd1753.bubbles(bubbles)
+  }
+  
+  if (chartParams.labels){
+    mapchart16a01dcd1753.labels()
+  }
+  
+  if (chartParams.legend){
+    mapchart16a01dcd1753.legend()
+  }
+  
+  setProjection = function( element, options ) {
+    var projection, path;
+ 
+      projection = d3.geo.albersUsa()
+        .scale(element.offsetWidth)
+        .translate([element.offsetWidth / 2, element.offsetHeight / 2]);
+ 
+    path = d3.geo.path()
+      .projection( projection );
+ 
+    return {path: path, projection: projection};
+  }
+</script>
+
+<style>
+.datamaps {
+  position: relative;
+}
+</style>
+    
+    <script></script>    
+  </body>
+</html>
