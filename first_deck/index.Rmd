@@ -72,8 +72,8 @@ May 2012: [https://www.edx.org/](https://www.edx.org/)
 * Intro to R and Rstudio
 * Not much more than a set-up guide
 
-<img src="assets/img/GitHubIntro2.png" height=300 />  
-<img src="assets/img/rStudioIDE3.png" height=300 />
+<img src="assets/img/gitHubIntro2.png" height=300 />
+<img src="assets/img/rstudioIDE3.png" height=300 />
 
 ---
 
